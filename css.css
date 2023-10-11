@@ -1,6 +1,6 @@
-h2 {color:rgb(10, 244, 252)}
-p{
-    font-size: 15px;
-    font-family: 'Franklin Gothic Medium'
-    color: rgb(255, 9, 214);
+#header {
+    background: teal;
+    color: white ;
+    height: 100 px;
+    padding: 50px;
 }
