@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.colored-heading {
+    color: #ff5733; /* Hex */
+}
+
+p {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.teal {
+    color: teal; /* Named color */
+}
+
+.purple {
+    color: rgb(128, 0, 128); /* RGB */
+}
+
+.green {
+    color: rgba(0, 128, 0, 0.7); /* RGBA */
+}
+
+.orange {
+    color: hsl(30, 100%, 50%); /* HSL */
+}
+
+.blue {
+    color: hsla(210, 100%, 50%, 0.7); /* HSLA */
+}
+
+.colorful-link {
+    color: #0077cc; /* Hex */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out; /* Efek transisi warna selama 0.3 detik */
+}
+
+.colorful-link:hover {
+    color: hsl(347, 100%, 40%); /* HSL for hover effect */
+}
