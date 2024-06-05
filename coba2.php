@@ -9,3 +9,4 @@ $speed = $speed + 10;
 
 // ini oprator penguasa
 $speed +=10 ;
+ // sekarang nilai speed akan menjadi 93 + 10 =103
