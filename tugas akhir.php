@@ -1,31 +1,4 @@
-
-
 <html lang="en">
-<style>
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-    text-align: center;
-    color: #333;
-}
-
-.biodata {
-    margin-bottom: 20px;
-}
-
-.footer {
-    text-align: center;
-    margin-top: 30px;
-    color: #777;
-}
-<style/>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,17 +12,17 @@ h1 {
         // SOAL 1 Program Biodata
 
         // Variabel Biodata
-        $nama = "John Doe";
-        $kelas = "XI IPA 1";
-        $tempat_lahir = "Jakarta";
-        $tanggal_lahir = "1 Januari 2000";
-        $alamat_rumah = "Jl. Kenangan No. 123";
-        $nomer_hp = "081234567890";
-        $hobi = "Bermain musik";
-        $cita_cita = "Menjadi dokter";
-        $makanan_favorit = "Nasi goreng";
-        $rencana_setelah_lulus = "Kuliah di luar negeri";
-        $tempat_pkl = "PT. XYZ Teknologi";
+        $nama = "Wisma Putra";
+        $kelas = "XI TKJ 2";
+        $tempat_lahir = "BLITAR";
+        $tanggal_lahir = "15 Mei 2006";
+        $alamat_rumah = "Desa Sumberagung RT4 RW6";
+        $nomer_hp = "085235391996";
+        $hobi = "Sepak Bola";
+        $cita_cita = "Menjadi Orang pertama yang pergi ke galaxy andromeda";
+        $makanan_favorit = "Nasi jala mak biyadab";
+        $rencana_setelah_lulus = "Kerja";
+        $tempat_pkl = "PT hernawan adiwilaga solution";
 
         // Menampilkan Biodata
         echo "<div class='biodata'>";
@@ -67,8 +40,8 @@ h1 {
         echo "</div>";
 
         // Tulisan paling bawah
-        $nama_dosen = "Very Setiawan";
-        echo "<p class='footer'>Tugas Akhir Pemrograman Web yang diampu Oleh Bapak " . $nama_dosen . "</p>";
+        $nama_pengampu= "Very Setiawan";
+        echo "<p class='footer'>Tugas Akhir Pemrograman Web yang diampu Oleh Bapak " . $nama_pengampu . "</p>";
         ?>
     </div>
 </body>
